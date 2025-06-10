@@ -17,7 +17,32 @@ int main(){
 
   // ?: -> ternary operator
 
-  
+  // Switch statement 
+
+  string x = "cat";
+  int stringLength = x.length();
+
+  switch(stringLength){
+    case 1: 
+      cout << "single letter word";
+      break;
+    case 2: 
+      cout << "double letter word";
+      break;
+    case 3: 
+      cout << "tripe letter word";
+      break;
+    case 4: 
+      cout << "four letter word";
+      break;
+    case 5: 
+      cout << "five letter word";
+      break;
+    default:
+      cout << "word contains more than five letters";
+  }
+
+  // OP: tripe letter word
 
   return 0;
 }
