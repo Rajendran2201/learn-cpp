@@ -1,7 +1,39 @@
-# Ignore executables (default a.out)
-a.out
+# macOS system files
+.DS_Store
 
-# Ignore all object files
+# VS Code settings
+.vscode/
+
+# Compiled object files and binaries
 *.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
 
+# CMake and Make build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+*.dSYM/
 
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Ignore user-level junk (only if accidentally added)
+.idea/
+*.iml
+*.class
+
+# Prevent ignoring folders entirely
+!.gitignore
