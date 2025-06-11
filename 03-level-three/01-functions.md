@@ -2,7 +2,7 @@
 
 The functions are as a=same as in C language.
 
-Let's look at some examples from GeeksforGeeks.
+Let's look at some examples from W3Schools.
 
 
 ```cpp
