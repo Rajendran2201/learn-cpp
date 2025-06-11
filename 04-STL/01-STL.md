@@ -35,7 +35,7 @@ These data structures have to be included through the library before usage.
 
 ```
 
-##  1. <a name='Vectors'></a>1. Vectors 
+## 1. Vectors 
 
 ```cpp
 #include<iostream>
@@ -60,7 +60,7 @@ The methods in vectors are,
 3. `size()`
 4. `empty()`
 
-##  2. <a name='Lists'></a>2. Lists 
+##  2. Lists 
 
 A list is similar to a vector in that it can store multiple elements of the same type and dynamically grow in size.
 
@@ -94,7 +94,7 @@ The methods in lists are:
 5. `size()`
 6. `empty()`
 
-##  3. <a name='Stacks'></a>3. Stacks 
+##  3. Stacks 
 
 A stack stores multiple elements in a specific order, called LIFO.
 
